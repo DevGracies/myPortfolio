@@ -9,6 +9,7 @@ import {
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
+import grace from "../assets/grace.png";
 const Banner = () => {
   return (
     <section
@@ -107,7 +108,7 @@ const Banner = () => {
             whileInView={"show"}
             className="hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px]  "
           >
-            <img src="" alt="" />
+            <img src={grace} alt="" />
           </motion.div>
         </div>
       </div>

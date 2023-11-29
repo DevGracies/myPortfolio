@@ -3,35 +3,39 @@
 @tailwind utilities;
 
 .btn {
-  background: linear-gradient(
-    92.23deg,
-    #ff56f6 21.43%,
-    #b936ee 50.63%,
-    #3bace2 100%,
-    #406aff 117.04%
-  );
-  box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
+  /* background: linear-gradient( */
+    /* 92.23deg, */
+    /* #fffc00 21.43%, */
+    /* #403b4a 100%, */
+    /* #ffffff 50.63%, */
+    /* #f7ff00 117.04% */
+
+  /* ); */
+  background: radial-gradient(circle at 10% 20%, rgb(224, 191, 6) 0%, rgb(252, 251, 121) 90%);
+  /* box-shadow: 0px 4.42184px 107.23px rgb(255, 200, 124)  */
 }
 
 .btn:hover {
-  background: linear-gradient(
-    92.23deg,
-    #406aff 21.43%,
-    #3bace2 50.63%,
-    #b936ee 100%,
-    #ff56f6 117.04%
-  );
+  /* background: linear-gradient( */
+    /* 92.23deg, */
+    /* #f7ff00 21.43%, */
+    /* #ffffff 50.63%, */
+    /* #403b4a 100%, */
+    /* #fffc00 117.04% */
+  /* ); */
+  background: radial-gradient(circle at 10% 20%, rgb(254, 255, 165) 0%, rgb(255, 232, 182) 90%);
 }
 
 .gradient,
 .active {
-  background: linear-gradient(
-    92.23deg,
-    #406aff 21.43%,
-    #3bace2 50.63%,
-    #b936ee 100%,
-    #ff56f6 117.04%
-  );
+  /* background: linear-gradient( */
+    /* 92.23deg, */
+    /* #406aff 21.43%, */
+    /* #3bace2 50.63%, */
+    /* #b936ee 100%, */
+    /* #ff56f6 117.04% */
+  /* ); */
+  background: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
 }
 
 .active {
@@ -63,7 +67,7 @@
     @apply text-base;
   }
   .text-gradient {
-    @apply bg-gradient-to-r text-transparent bg-clip-text from-[#42A6E3] to-[#FF56F6] font-bold font-primary hover:from-[#FF56F6] hover:to-[#42A6E3];
+    @apply bg-gradient-to-r text-transparent bg-clip-text from-[#FFFF00] to-[#fcff56] font-bold font-primary hover:from-[#e6ff56] hover:to-[#e3d342];
   }
   .section {
     @apply py-8 lg:py-24 lg:h-screen flex items-center;

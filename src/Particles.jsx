@@ -36,7 +36,7 @@ const Particless = () => {
             },
           },
           color: {
-            value: "#fff",
+            value: "#FFFF00",
           },
           shape: {
             type: "circle",
