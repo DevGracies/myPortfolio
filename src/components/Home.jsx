@@ -10,7 +10,7 @@ import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 import grace from "../assets/grace.png";
-const Banner = () => {
+const Home = () => {
   return (
     <section
       className="min-h-[85vh] lg:min-h-[78vh] flex items-center"
@@ -44,6 +44,8 @@ const Banner = () => {
                   2000,
                   "Writer",
                   2000,
+                  "Entrepreneur",
+                  2000,
                 ]}
                 speed={50}
                 className="text-accent"
@@ -58,10 +60,13 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="mb-8 max-w-lg mx-auto lg:mx-0"
             >
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Exercitationem laborum animi repellendus nihil, quos obcaecati
-              quasi voluptas. Quisquam fugit, fuga aliquam repellendus hic dolor
-              officia possimus saepe ratione enim? Sint.
+              {" "}
+              I'm a computer science student of Adekunle Ajasin University
+              Akungba Akoko, Ondo State Nigeria. I'm a software developer, i
+              specialise in full-stack development. I create responsive website
+              with frontend to build top-quality code for diverse projects. I
+              can create, maintain, test and debug the entire backend
+              application or system.
             </motion.p>
             <motion.div
               variants={fadeIn("up", 0.6)}
@@ -116,4 +121,4 @@ const Banner = () => {
   );
 };
 
-export default Banner;
+export default Home;

@@ -1,6 +1,6 @@
 import Particless from "./Particles";
-import About from "./components/About";
-import Banner from "./components/Banner";
+import Home from "./components/Home";
+import Stack from "./components/Stack";
 import Contact from "./components/Contact";
 import Header from "./components/Header";
 import Nav from "./components/Nav";
@@ -11,12 +11,11 @@ function App() {
   return (
     <>
       <Particless />
-      {/* <div className=" bg-[#000] bg-no-repeat bg-cover overflow-hidden"> */}
       <div>
         <Header />
-        <Banner />
+        <Home />
         <Nav />
-        <About />
+        <Stack />
         <Services />
         <Work />
         <Contact />

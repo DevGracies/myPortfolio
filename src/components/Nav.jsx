@@ -1,5 +1,6 @@
-import { BiHomeAlt, BiUser } from "react-icons/bi";
+import { BiHomeAlt } from "react-icons/bi";
 import { BsClipboard2Data, BsBriefcase, BsChatSquare } from "react-icons/bs";
+import { FaTools } from "react-icons/fa";
 import { Link } from "react-scroll";
 const Nav = () => {
   return (
@@ -23,10 +24,10 @@ const Nav = () => {
             activeClass="active"
             smooth={true}
             spy={true}
-            to="about"
+            to="stack"
             className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center"
           >
-            <BiUser />
+            <FaTools />
           </Link>
           <Link
             activeClass="active"
